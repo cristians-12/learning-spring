@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@RequestMapping("/api/variable")
+@RequestMapping("/api/var")
 public class PathVariableController {
     @GetMapping("/{param}")
     public ParamDTO example(@PathVariable String param) {
